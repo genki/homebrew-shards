@@ -5,11 +5,11 @@
 class Shards < Formula
   desc ""
   homepage ""
-  url "https://github.com/ysbaddaden/shards/archive/v0.4.0.tar.gz"
-  version "0.4.0"
-  sha256 "fff0f3c6562023fd279c80becf3683d2ac922ff097dda12f544f51f4b383ae5c"
+  url "https://github.com/ysbaddaden/shards/archive/v0.5.2.tar.gz"
+  version "0.5.2"
+  sha256 "6dd8690d6ecd76bf2eccb3c3b83acfbe1af31be82acb5003ab9df2c0471153cf"
 
-  depends_on "manastech/crystal/crystal-lang"
+  depends_on "crystal-lang"
 
   def install
     system "make"
